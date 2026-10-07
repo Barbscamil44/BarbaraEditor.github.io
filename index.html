@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bárbara — Video Editor</title>
+<meta name="description" content="Bárbara — Video Editor. Portfolio of long-form videos, shorts and reels editing.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-logo">barbara<span class="dot">.</span></div>
+  <div class="nav-links">
+    <a href="#work">Work</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="hero-photo-wrap">
+    <img src="hero.jpg" alt="Bárbara" class="hero-photo">
+  </div>
+  <h1 class="hero-name">Bárbara</h1>
+  <p class="hero-role">VIDEO EDITOR</p>
+  <div class="hero-meta">
+    <span class="hero-loc">BRAZIL</span>
+    <span class="hero-tag">LONG-FORM · SHORTS · REELS</span>
+  </div>
+  <a href="#work" class="scroll-cue">Scroll to see work ↓</a>
+</header>
+
+<section id="about" class="intro">
+  <span class="label">[ INTRO ]</span>
+  <p class="intro-text">
+    Hi! I'm Bárbara, a Video Editor with experience creating and editing content
+    across different niches and formats. I work with YouTube videos, Shorts,
+    Reels, and social media content, always focusing on
+    <span class="muted">pacing, storytelling, strategic cuts,</span>
+    subtitles, effects, and visual elements that keep the
+    <span class="muted">audience engaged.</span>
+  </p>
+</section>
+
+<section id="work" class="work">
+  <div class="work-header">
+    <span class="label">[ PORTFOLIO ]</span>
+    <h2>Long-Form Videos</h2>
+  </div>
+  <div class="grid grid-long" id="grid-long"></div>
+
+  <div class="work-header work-header-shorts">
+    <span class="label">[ PORTFOLIO ]</span>
+    <h2>Shorts</h2>
+  </div>
+  <div class="grid grid-short" id="grid-short"></div>
+</section>
+
+<footer id="contact" class="contact">
+  <span class="label">[ CONTACT ]</span>
+  <h2 class="contact-title">Let's work together.</h2>
+  <div class="contact-links">
+    <a href="https://x.com/barbs_mp4" target="_blank" rel="noopener" class="contact-link">
+      <span class="contact-platform">Twitter / X</span>
+      <span class="contact-handle">@barbs_mp4 ↗</span>
+    </a>
+    <div class="contact-link contact-link--static">
+      <span class="contact-platform">Discord</span>
+      <span class="contact-handle">barbar442983</span>
+    </div>
+    <a href="https://github.com/Barbscamil44" target="_blank" rel="noopener" class="contact-link">
+      <span class="contact-platform">GitHub</span>
+      <span class="contact-handle">@Barbscamil44 ↗</span>
+    </a>
+  </div>
+  <p class="footer-note">© 2026 Bárbara. Built for editing, built to be seen.</p>
+</footer>
+
+<div class="modal" id="videoModal">
+  <div class="modal-backdrop" id="modalBackdrop"></div>
+  <div class="modal-box" id="modalBox">
+    <button class="modal-close" id="modalClose">✕</button>
+    <div class="modal-frame" id="modalFrame"></div>
+  </div>
+</div>
+
+<script src="videos.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
