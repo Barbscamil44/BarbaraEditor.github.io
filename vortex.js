@@ -11,7 +11,7 @@
     w = canvas.width = canvas.offsetWidth * devicePixelRatio;
     h = canvas.height = canvas.offsetHeight * devicePixelRatio;
     cx = w / 2;
-    cy = h * 0.42;
+    cy = h / 2;
   }
 
   function rand(min, max) { return Math.random() * (max - min) + min; }
