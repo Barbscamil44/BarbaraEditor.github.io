@@ -1,10 +1,10 @@
 // Video data — unlisted YouTube links
 const LONG_VIDEOS = [
   { id: "jy5aC4lJHNc", title: "Lian Chanel — Trial", year: "2026", client: "Lian Chanel" },
-  { id: "FOqONVbcI9U", title: "10 True Stories That Sound Like a Movie Plot", year: "2026", client: "Narrative" },
   { id: "10EWOhmhWt0", title: "Roblox Trial — Andy Plays Channel", year: "2026", client: "Andy Plays" },
   { id: "nvP04_K3OMw", title: "DfieldMark — Trial Intro", year: "2026", client: "DfieldMark" },
-  { id: "APypkV2erv0", title: "The Pyramids of Egypt — Trial Doc", year: "2026", client: "Documentary" }
+  { id: "5f0E4zwXRU8", title: "GTA 6 Edit", year: "2026", client: "GTA 6" },
+  { id: "mkxUItBmgGM", title: "Russo Plays Roblox — Edit Trial", year: "2026", client: "Russo Plays" }
 ];
 
 const SHORT_VIDEOS = [
