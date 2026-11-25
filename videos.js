@@ -4,7 +4,8 @@ const LONG_VIDEOS = [
   { id: "10EWOhmhWt0", title: "Roblox Trial — Andy Plays Channel", year: "2026", client: "Andy Plays" },
   { id: "nvP04_K3OMw", title: "DfieldMark — Trial Intro", year: "2026", client: "DfieldMark" },
   { id: "5f0E4zwXRU8", title: "GTA 6 Edit", year: "2026", client: "GTA 6" },
-  { id: "mkxUItBmgGM", title: "Russo Plays Roblox — Edit Trial", year: "2026", client: "Russo Plays" }
+  { id: "mkxUItBmgGM", title: "Russo Plays Roblox — Edit Trial", year: "2026", client: "Russo Plays" },
+  { id: "UIjY89fKdl0", title: "Roblox Intro — Edit v2", year: "2026", client: "Roblox" }
 ];
 
 const SHORT_VIDEOS = [
